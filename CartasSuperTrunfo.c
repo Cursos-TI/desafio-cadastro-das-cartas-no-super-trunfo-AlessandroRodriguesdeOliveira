@@ -29,18 +29,18 @@ int main(){
         as comparações entre as propriedades.
 
         obs: Na comparação a densidade ganhadora é a menor e no calculo do Super Poder o seu valor é invertido.
-        Assim:
+        Parecido com isso:
             Carta 1:
             Estado: A
             Código da Carta: A01
             Nome da Cidade: São Paulo
             População: 12325000
             Área: 1521.11 km²
-            Densidade Populacional: 8101.19 pessoas/km²
             PIB: 699.28 bilhões de reais
-            PIB per Capita: 56749 reais
             Número de Pontos Turísticos: 50
-            Super Poder: 12392110.00
+            Densidade Populacional: 8102.64 hab/km²
+            PIB per Capita: 56736.71 reais
+            Super Poder: 12384007.00
 
             Carta 2:
             Estado: B
@@ -50,8 +50,9 @@ int main(){
             Área: 1200.25 km²
             PIB: 300.50 bilhões de reais
             Número de Pontos Turísticos: 30
-            Densidade Populacional: 5622.24 hab/km²
-            PIB per Capita: 44532.91 reais
+            Densidade Populacional: 5622.16 hab/km²
+            PIB per Capita: 44531.71 reais
+            Super Poder: 6794062.00
 
             Comparações:
             População: Carta 1 venceu (1)
@@ -83,7 +84,7 @@ int main(){
    
     scanf("%c", &estado1);
     
-    printf("Digite o Código da Carta, A letra do estado seguida de um número de 01 a 04 (ex: A01, B03): ");
+    printf("Digite o Código da Carta, letra do Estado\nseguida de um número de 01 a 04 (ex: A01, B03): ");
     scanf("%s", codigoDaCarta1);
     
     printf("Digite o Nome da Cidade: ");
@@ -137,7 +138,7 @@ int main(){
     scanf(" %c", &estado2);
     
 
-    printf("Digite o Código da Carta, A letra do estado seguida de um número de 01 a 04 (ex: A01, B03): ");
+    printf("Digite o Código da Carta, letra do Estado\nseguida de um número de 01 a 04 (ex: A01, B03): ");
     scanf("%s", codigoDaCarta2);
     
 
@@ -189,7 +190,7 @@ int main(){
     printf("\nÁrea: %.2f km²", areaEmKm21);
     printf("\nPIB: %.2f bilhões de reais", pib1);
     printf("\nNúmero de Pontos Turísticos: %d",  numeroDePontosTuristicos1);
-    printf("\nDensidade Populacional: %.2f pessoas/km²", densidadePopulacional1);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidadePopulacional1);
     printf("\nPIB per Capita: %.2f reais", pibPerCapita1);
     printf("\nSuper Poder: %.2f\n", superPoder1);
 
@@ -202,7 +203,7 @@ int main(){
     printf("\nÁrea: %.2f km²", areaEmKm22);
     printf("\nPIB: %.2f bilhões de reais", pib2);
     printf("\nNúmero de Pontos Turísticos: %d",  numeroDePontosTuristicos2);
-    printf("\nDensidade Populacional: %.2f pessoas/km²", densidadePopulacional2);
+    printf("\nDensidade Populacional: %.2f hab/km²", densidadePopulacional2);
     printf("\nPIB per Capita: %.2f reais", pibPerCapita2);
     printf("\nSuper Poder: %.2f\n", superPoder2);
 
