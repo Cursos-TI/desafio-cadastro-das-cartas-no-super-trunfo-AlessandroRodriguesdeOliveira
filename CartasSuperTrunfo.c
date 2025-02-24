@@ -62,7 +62,7 @@ int main(){
             Densidade Populacional: Carta 2 venceu (0)
             PIB per Capita: Carta 1 venceu (1)
             Super Poder: Carta 1 venceu (1)
-            Número de Pontos Turísticos: 30  
+              
     */
     //criação das variáveis da primeira carta:
     char estado1;
